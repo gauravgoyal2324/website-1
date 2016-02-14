@@ -1,9 +1,10 @@
 <main name="{{ .Site.Params.topAnchor }}">
   <nav>
-    <a href="/">Home</a>
-    <a href="/projects">Projects</a>
-    <a href="/incubator">Incubator</a>
-    <a href="/contact">Contact</a>
+    {{ range .Site.Menus.main }}
+      <a href="{{.URL}}">
+        {{ .Name }}
+      </a>
+    {{end}}
   </nav>
   <header>
     <img alt="" class="site-logo" src="{{ .Site.Params.logo }}">
@@ -11,4 +12,3 @@
     <h3>{{ .Site.Params.tagline }}</h3>
   </header>
 </main>
-
