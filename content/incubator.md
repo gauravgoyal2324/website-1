@@ -6,4 +6,4 @@ title = "De Incubator"
 topMenu = true
 +++
 
-<img src="http://i.imgur.com/n9rUuqo.png" align="middle">
+<img src="http://i.imgur.com/n9rUuqo.png" align="middle" class="responsive-img">
