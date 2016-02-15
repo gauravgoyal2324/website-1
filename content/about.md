@@ -5,4 +5,4 @@ draft = false
 title = "About"
 +++
 
-### Deginner is an <b>open source</b> software development team focused on <b>decentralized</b>, trustless technology and public blockchains. All of our projects are <b>free</b> to use, modify, and extend, but we also offer comprehensive support and <b>partnerships</b> to select teams.
+### Deginner is an <b>open source</b> software development team focused on <b>decentralized</b>, trustless technology and public blockchains. All of our projects are <b>free</b> to use, modify, and extend, but we also offer comprehensive support and <b>partnerships</b> to select teams as part of our [incubator](/incubator).
