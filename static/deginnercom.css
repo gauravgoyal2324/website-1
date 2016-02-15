@@ -427,6 +427,10 @@ input[type=submit]:hover {
 }
 
 .single-header {
+  border-bottom: 0;
+}
+
+.single-header ul {
   display: table;
   padding: 0;
   width: 100%;
@@ -435,17 +439,6 @@ input[type=submit]:hover {
 .single-header li {
   display: table-cell;
   vertical-align: middle;
-}
-
-.single-header .site-logo {
-  display: table;
-  height: 42px;
-  width: auto;
-}
-
-.single-header nav {
-  border-bottom: 0;
-  text-align: right;
 }
 
 @media (max-width: 999px) {
@@ -540,5 +533,15 @@ input[type=submit]:hover {
 
   .single-header li {
     padding: 0 10px;
+  }
+}
+
+@media (max-width: 512px) {
+  .single-header ul {
+    display: block;
+  }
+
+  .single-header li {
+    display: block;
   }
 }
