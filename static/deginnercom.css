@@ -426,9 +426,32 @@ input[type=submit]:hover {
   width: 100%;
 }
 
+.single-header {
+  display: table;
+  padding: 0;
+  width: 100%;
+}
+
+.single-header li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.single-header .site-logo {
+  display: table;
+  height: 42px;
+  width: auto;
+}
+
+.single-header nav {
+  border-bottom: 0;
+  text-align: right;
+}
+
 @media (max-width: 999px) {
   main {
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   main header {
@@ -513,5 +536,9 @@ input[type=submit]:hover {
 
   .form-half-row {
     width: 100%;
+  }
+
+  .single-header li {
+    padding: 0 10px;
   }
 }
