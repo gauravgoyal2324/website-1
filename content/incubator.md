@@ -8,4 +8,4 @@ topMenu = true
 
 To apply to De Incubator or ask questions, please [contact us](/contact).
 
-<img src="http://i.imgur.com/n9rUuqo.png" align="middle">
+<img src="http://i.imgur.com/n9rUuqo.png" align="middle" class="responsive-img">
